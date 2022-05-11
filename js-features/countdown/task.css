@@ -1,0 +1,20 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	align-items: center;
+	justify-content: center;
+	
+}
+.card {
+    display: flex;
+    min-width: 50vh;
+}
+
+.time-count__content {
+    display: flex; 
+}
+.time-count__item {
+    text-align: center; 
+}
