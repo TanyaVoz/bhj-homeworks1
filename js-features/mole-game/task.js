@@ -17,11 +17,13 @@ for(let i = 0; i < holeTargetArr.length; i++) {
 			if(deadMole.textContent == 10) {
 				alert('Вы победили!');
                 deadMole.textContent = 0;
+				missed.textContent = 0;
                 return;
 			}
 			 else if(missed.textContent == 5){
 				alert('Вы проиграли.');	
                 missed.textContent = 0;	
+				deadMole.textContent = 0;
 				return;
 			}
 		}
