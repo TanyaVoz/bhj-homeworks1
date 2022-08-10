@@ -33,3 +33,13 @@ form.addEventListener("submit", event => {
     }
 })
 
+window.onload = function() {
+	const userId = localStorage.getItem("id");
+	console.log(userId);
+
+	if(userId) {
+		idUser.textContent = userId;
+		welcomeUser();
+	}
+}
+
