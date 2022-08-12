@@ -5,7 +5,7 @@ let taskInput = document.querySelector(".tasks__input");
 taskAdd.addEventListener("click", e => {
     e.preventDefault();
     const value = taskInput.value;
-    if (value != ""){
+    if (value != "") {
         task.innerHTML += `<div class="task">
           <div class="task__title">
           ${value}
